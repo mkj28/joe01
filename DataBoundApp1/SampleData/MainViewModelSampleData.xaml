@@ -1,0 +1,16 @@
+﻿<local:MainViewModel 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:DataBoundApp1" 
+    SampleProperty="Sample Text Property Value">
+    
+    <local:MainViewModel.Items>
+        <local:ItemViewModel Path="http://www.joemonster.org/mg/displayimage.php?album=lastup_pos=0" Title="Maecenas praesent accumsan bibendum" Album="Maecenas praesent" AlbumPath="http://www.joemonster.org/mg/album,1"/>
+        <local:ItemViewModel Path="http://www.joemonster.org/mg/displayimage.php?album=lastup_pos=1" Title="Dictumst eleifend facilisi faucibus" Album="Pharetra placerat" AlbumPath="http://www.joemonster.org/mg/album,2"/>
+        <local:ItemViewModel Path="http://www.joemonster.org/mg/displayimage.php?album=lastup_pos=2" Title="Habitant inceptos interdum lobortis" Album="Accumsan bibendum" AlbumPath="http://www.joemonster.org/mg/album,3"/>
+        <local:ItemViewModel Path="http://www.joemonster.org/mg/displayimage.php?album=lastup_pos=3" Title="Nascetur pharetra placerat pulvinar" Album="Pulvinar sagittis" AlbumPath="http://www.joemonster.org/mg/album,4"/>
+        <local:ItemViewModel Path="http://www.joemonster.org/mg/displayimage.php?album=lastup_pos=4" Title="Sagittis senectus sociosqu suscipit" Album="Dictumst eleifend" AlbumPath="http://www.joemonster.org/mg/album,5"/>
+        <local:ItemViewModel Path="http://www.joemonster.org/mg/displayimage.php?album=lastup_pos=5" Title="Torquent ultrices vehicula volutpat" Album="Senectus sociosqu" AlbumPath="http://www.joemonster.org/mg/album,6"/>
+    </local:MainViewModel.Items>
+    
+</local:MainViewModel>
