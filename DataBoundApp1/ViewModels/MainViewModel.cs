@@ -75,7 +75,7 @@ namespace DataBoundApp1
 
         void AddMoreItems()
         {
-            //Busy = true;
+            Busy = true;
             int start = items.Count;
             int end = start + 20;
 
